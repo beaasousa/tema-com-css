@@ -1,14 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Combo&family=Playfair+Display&family=Qwitcher+Grypen:wght@700&display=swap');
+
 body {
+    color: #000000;
+    background-color: #70587c;
+    font-family: 'Alegreya Sans', sans-serif;
 }
 
 main#container {
+    padding: 75px;
+    border-width: 18px; border-style: solid;  border-color: #502f4c; background-color: #c8b8db;
+
 }
 
 h1.titulo {
+    font-family: 'Combo', cursive;
+    font-size: 45px; 
 }
 
 p.frase {
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
 }
 
 p.autor {
+    font-family: 'Qwitcher Grypen', cursive;
+    font-size: 40px;
 }
